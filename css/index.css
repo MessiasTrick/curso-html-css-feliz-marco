@@ -1,8 +1,8 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #C899B0;
-    border-bottom: 10px solid #000;
+    background-color: #7EB0F2;
+    border-bottom: 10px solid #A68053;
     padding: 10px 20px;
 }
 
@@ -23,30 +23,17 @@ a {
 
 a::before {
     content: '';
-    background-color: #732240;
+    background-color: #D984B3;
     width: 10px;
     height: 10px;
     margin-right: 10px;
 }
 
-.button {
-    display: inline-block;
-    background-color: #732240;
-    padding: 18px 20px;
-    box-shadow: 5px 5px 0px #000;
-    margin-right: 0px;
-    transition: transform 100ms linear;
-}
-
-.button:hover, img:hover {
-    transform:scale(1.08);
-}
-
-img {
+header img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    box-shadow: 2px 2px 0 black;
+    box-shadow: 1px 1px 0 #D984B3;
     transition: transform 100ms linear;
 }
 
