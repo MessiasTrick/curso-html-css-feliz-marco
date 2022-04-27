@@ -5,8 +5,11 @@
     box-shadow: 5px 5px 0px #000;
     margin-right: 0px;
     transition: transform 100ms linear;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
 }
 
-.button:hover, img:hover {
+.button:hover {
     transform:scale(1.08);
 }
